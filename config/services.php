@@ -31,4 +31,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'newyorktimes' => [
+        'key' => env('NYT_API_KEY'),
+    ],
+
 ];
