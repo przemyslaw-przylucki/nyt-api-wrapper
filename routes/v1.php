@@ -1,5 +1,5 @@
 <?php
 
-use App\Http\Controllers\Api\V1\NewYorkTimes\NewYorkTimeBestSellerController;
+use App\Http\Controllers\Api\V1\BlogPostController;
 
-Route::get('nyt/best-sellers', NewYorkTimeBestSellerController::class);
+Route::post('blog/post', [BlogPostController::class, 'store']);
